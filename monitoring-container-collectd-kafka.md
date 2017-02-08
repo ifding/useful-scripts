@@ -26,6 +26,25 @@ $ sudo apt-get update
 $ sudo apt-get install librdkafka-dev
 ```
 
+building librdkafka
+
+```
+git clone https://github.com/edenhill/librdkafka.git
+cd librdkafka/
+./configure
+make
+sudo make install
+```
+usage in code
+
+Link your program with ```-lrdkafka -lz -lpthread -lrt```.
+
+public API
+
+* The C API is documented in src/rdkafka.h
+* The C++ API is documented in src-cpp/rdkafkacpp.h
+
+
 ### Step 2: Download and install collectd
 
 ```
