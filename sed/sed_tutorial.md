@@ -239,10 +239,10 @@ s/Fei/Ken/
 ``` 
 
 The sed execution flow:
-1. Read: Sed reads the line and puts it in the pattern space.
-2. Execute: Sed executes the 2nd command on the content of the current pattern space after execution of the first command.
-3. Print: It prints the content of the current pattern space.
-4. Repeat: it moves on to the next line and repeats from step #1.
+1). Read: Sed reads the line and puts it in the pattern space.
+2). Execute: Sed executes the 2nd command on the content of the current pattern space after execution of the first command.
+3). Print: It prints the content of the current pattern space.
+4). Repeat: it moves on to the next line and repeats from step #1.
 
 #### 10. Power of & - Get Matched Pattern
 
