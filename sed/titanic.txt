@@ -1,0 +1,24 @@
+#titanic.txt
+PassengerId Survived Pclass Name Sex Age SibSp Parch Ticket Fare Cabin Embarked
+01 0 3 "Braund_Mr.Owen_Harris" male 22 1 0 A/5_21171 7.25 Null S
+02 1 1 "Cumings_Mrs.John_Bradley_(Florence_Briggs_Thayer)" female 38 1 0 PC_17599 71.2833 C85 C
+03 1 3 "Heikkinen_Miss.Laina" female 26 0 0 STON/O2.3101282 7.925 Null S
+04 1 1 "Futrelle_Mrs.Jacques_Heath_(Lily_May_Peel)" female 35 1 0 113803 53.1 C123 S
+05 0 3 "Allen_Mr.William_Henry" male 35 0 0 373450 8.05 Null S
+06 0 3 "Moran_Mr.James" male 34 0 0 330877 8.4583 Null Q
+07 0 1 "McCarthy_Mr.Timothy_J" male 54 0 0 17463 51.8625 E46 S
+08 0 3 "Palsson_Master.Gosta_Leonard" male 2 3 1 349909 21.075 Null S
+09 1 3 "Johnson_Mrs.Oscar_W_(Elisabeth_Vilhelmina_Berg)" female 27 0 2 347742 11.1333 Null S
+10 1 2 "Nasser_Mrs.Nicholas_(Adele_Achem)" female 14 1 0 237736 30.0708 Null C
+11 1 3 "Sandstrom_Miss.Marguerite_Rut" female 4 1 1 PP_9549 16.7 G6 S
+12 1 1 "Bonnell_Miss.Elizabeth" female 58 0 0 113783 26.55 C103 S
+13 0 3 "Saundercock_Mr.William_Henry" male 20 0 0 A/5.2151 8.05 Null S
+14 0 3 "Andersson_Mr.Anders_Johan" male 39 1 5 347082 31.275 Null S
+15 0 3 "Vestrom_Miss.Hulda_Amanda_Adolfina" female 14 0 0 350406 7.8542 Null S
+16 1 2 "Hewlett_Mrs.(Mary_D_Kingcome)_" female 55 0 0 248706 16 Null S
+17 0 3 "Rice_Master.Eugene" male 2 4 1 382652 29.125 Null Q
+18 1 2 "Williams_Mr.Charles_Eugene" male 28 0 0 244373 13 Null S
+19 0 3 "Vander_Planke_Mrs.Julius_(Emelia_Maria_Vandemoortele)" female 31 1 0 345763 18 Null S
+20 1 3 "Masselmani_Mrs.Fatima" female 33 0 0 2649 7.225 Null C
+#TITANIC titanic file is used to test titanic replace TITANIC 
+
