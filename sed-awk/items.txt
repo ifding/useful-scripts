@@ -1,0 +1,5 @@
+101,MacBook Air,PC,810@10
+102,Refrigerator,Appliance,900@5
+103,iPhone 7,Phone,700@20
+104,Laser Printer,Office,300@8
+105,Football,Sports,200@15
