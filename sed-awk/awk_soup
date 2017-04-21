@@ -1,0 +1,65 @@
+# 1. print the sum of nth column
+awk -F "\t" -n n=1 '{sum+=$n}END{print sum}' file
+awk '{sum += $1};END {print sum}' test
+ 
+# 2. print all the columns, exclude vth column 
+awk -F "\t" -v v=3 '{
+    len=split($0,arr,"\t");
+    for(i=1;i<len;i++)
+    if (i!=v) {a=a$i"\t"};
+    if(len!=v) a=a$len;
+    if(len==v) a=substr(a,1,length(a)-1);
+    print a;
+    a="";
+ }' file
+
+# 3. print the max and min value of vth column 
+awk -F "\t" -v v=1 'NR==1{max=min=$v;next}{max=max>$v?max:$v;min=min<$v?min:$v}END{print max,min}' file
+
+# 4. display all different values in one column 
+awk -v v=1 'BEGIN{FS="\t"}{a[$v]=1;sum=0} END{for(i in a) sum+=a[i];print sum}' file
+
+# 5. delete the repeated row 
+awk '!a[$0]++' file 
+awk '!a[$0]++' tmp > tmp1
+ 
+# 6. matrix transposition
+awk -F "\t" '{for(i=1;i<=NF;i++){a[FNR,i]=$i}}END{for(i=1;i<=NF;i++){for(j=1;j<=FNR;j++){printf a[j,i]"\t"}print ""}}' file | sed 's/[ \t]*$//' | sed '$d'
+
+# 7. delete the last row in the file 
+sed '$d' file.txt
+
+# 8. delete the white space in the tail 
+sed 's/[ \t]*$//' lr_predict_tmp > lr_predict_tmp1
+sed 's/[ \t]*$//' tmp3 > test2
+
+# 9. let the null value to be 0 
+awk -F "\t" '{for (i=1;i<=NF;i++) if($i=="") $i=0; print $0}' OFS="\t" tt > tt2﻿​  
+
+# 10. merge the column of same ession
+awk 'BEGIN{FS=" "} {map[$1]=map[$1]$NF" "} END{for(i in map)print i,map[i]}' tmp1 > tmp2
+#awk 'BEGIN{FS=OFS=" "} {map[$1]=map[$1]$NF" "} END{for(i in map)print i,map[i]}' tmp > tmp1
+
+# 11. compare src with lr_predict, and get the section
+awk 'NR==FNR{a[$0]++} NR>FNR&&a[$0]' src lr_predict > lr_predict_output
+# src2
+# s1    A    B
+# s1    A    C
+# s1    A    E
+# s2    B    D
+# s2    B    E
+# s2    B    F
+# s3    A    B
+# s3    A    D
+# s4    E    A
+# predict
+# A    B
+# A    C
+# A    D
+# B    C
+# B    D
+# C    E
+# C    F
+# C    G
+awk 'NR==FNR{a[$1,$2]=1} NR>FNR&&a[$2,$3]' lr_predict src2 > lr_predict_output2
+
