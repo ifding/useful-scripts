@@ -9,7 +9,7 @@ My collection of useful scripts, automate all the things!
 - [Monitor](#monitor)
 - [Database](#database)
 - [Java](#java)
-- [Cheat sheet](#cheatsheet)
+- [Tips](#tips)
 - [Tools](#tools)
 - [resources](#resources)
 
@@ -23,6 +23,7 @@ My collection of useful scripts, automate all the things!
 - pidstat,report statistics for Linux tasks
 - [Moby,a collaborative project for the container ecosystem to assemble container-based systems](https://github.com/moby/moby)
 - [Ansible,a radically simple IT automation platform that makes your applications and systems easier to deploy](https://github.com/ansible/ansible)
+- [Linux Bash History](http://www.thegeekstuff.com/2011/08/bash-history-expansion/)
 
 ## Sed
 - [Sed Tutorial](sed-awk/sed_tutorial.md)
@@ -70,8 +71,10 @@ My collection of useful scripts, automate all the things!
 - [maven](./java/maven.sh) 
 - [java dump](./java/java_dump.sh)
 
-## cheat sheet
-- [Nmap Cheat Sheet](nmap-cheat-sheet.md)
+## Tips
+- [nmap cheat sheet](./tips/nmap-cheat-sheet.md)
+- [terminal-hotkeys](./tips/terminal-hotkeys.md)
+- [cheat allows you to create and view interactive cheatsheets on the command-line](https://github.com/chrisallenlane/cheat)
 
 ## Tools
 - [Text-mode interface for git](https://github.com/jonas/tig)
@@ -100,6 +103,7 @@ My collection of useful scripts, automate all the things!
 - [Pandoc,a universal document converter](http://pandoc.org/)
 - [http-server,a simple zero-configuration command-line http server](https://github.com/indexzero/http-server)
 - [oh-my-zsh,A delightful community-driven framework for managing your zsh configuration](https://github.com/robbyrussell/oh-my-zsh)
+- [use vim as IDE](https://github.com/yangyangwithgnu/use_vim_as_ide)
 
 ## Resources
 - [A curated list of awesome Shell frameworks, libraries and software](https://github.com/uhub/awesome-shell)
