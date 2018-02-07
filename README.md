@@ -17,6 +17,7 @@ My collection of useful scripts, automate all the things!
 
 
 ## Linux
+- [compress and extract files](linux/compress_extract_files.md)
 - [bash-guide,A guide to learn bash](https://github.com/Idnan/bash-guide)
 - [basic commands](linux/basic_command.md)
 - [Ag:A code-searching tool similar to ack, but faster](https://github.com/ggreer/the_silver_searcher)
