@@ -12,7 +12,20 @@ $ conda create -n pytorch python=3.5
 $ source activate pytorch
 ```
 
-### 2. Install pytorch from source
+
+### 2. Install torch from source
+
+```
+export CXXFLAGS="-std=c++11"
+export CFLAGS="-std=c99"
+
+cd /home/feid/.conda/envs/pytorch/
+git clone https://github.com/torch/distro.git ./torch --recursive
+cd ./torch; bash install-deps;
+./install.sh
+```
+
+### 3. Install pytorch from source
 
 ```
 $export CMAKE_PREFIX_PATH="/home/feid/.conda/envs/pytorch/" # [anaconda root directory]
@@ -32,21 +45,18 @@ $ cd pytorch
 $ python setup.py install
 ```
 
-### 3. Install torch from source
+OR Use conda:
 
 ```
-export CXXFLAGS="-std=c++11"
-export CFLAGS="-std=c99"
-
-cd /home/feid/.conda/envs/pytorch/
-git clone https://github.com/torch/distro.git ./torch --recursive
-cd ./torch; bash install-deps;
-./install.sh
+$ conda install pytorch torchvision -c pytorch
 ```
+
 
 ### 4. Install Warp-CTC bindings
 
 Note: CUDA_HOME should be like this: `export CUDA_HOME="/software/cuda-toolkit/8.0.44/"`
+
+Need to activate torch
 
 ```
 git clone https://github.com/SeanNaren/warp-ctc.git
@@ -56,6 +66,9 @@ cmake ..
 make
 cd ../pytorch_binding
 python setup.py install
+
+. /home/feid/.conda/envs/pytorch/torch/install/bin/torch-activate 
+th
 ```
 
 ### 5. Install pysoundfile
