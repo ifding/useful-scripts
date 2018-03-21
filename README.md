@@ -26,6 +26,10 @@ My collection of useful scripts, automate all the things!
 - [Ansible,a radically simple IT automation platform that makes your applications and systems easier to deploy](https://github.com/ansible/ansible)
 - [Linux Bash History](http://www.thegeekstuff.com/2011/08/bash-history-expansion/)
 
+
+## Build
+- [install pytorch on palmetto](build/install-pytorch-on-palmetto.md)
+
 ## Sed
 - [Sed Tutorial](sed-awk/sed_tutorial.md)
 
