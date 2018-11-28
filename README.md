@@ -4,11 +4,12 @@ My collection of useful scripts, automate all the things!
 <!-- MarkdownTOC -->
 
 - [Linux](#linux)
+- [Java](#java)
+- [Python](#python)
 - [Sed](#sed)
 - [Awk](#awk)
 - [Monitor](#monitor)
 - [Database](#database)
-- [Java](#java)
 - [Tips](#tips)
 - [Tools](#tools)
 - [resources](#resources)
@@ -25,6 +26,14 @@ My collection of useful scripts, automate all the things!
 - [Moby,a collaborative project for the container ecosystem to assemble container-based systems](https://github.com/moby/moby)
 - [Ansible,a radically simple IT automation platform that makes your applications and systems easier to deploy](https://github.com/ansible/ansible)
 - [Linux Bash History](http://www.thegeekstuff.com/2011/08/bash-history-expansion/)
+
+
+## Python
+- [scripts](./python/README.md) 
+
+## Java
+- [maven](./java/maven.sh) 
+- [java dump](./java/java_dump.sh)
 
 
 ## Build
@@ -72,9 +81,6 @@ My collection of useful scripts, automate all the things!
 - [cookielog analysis](./database/cookielog_analysis.sh)
 - [mycli:A Terminal Client for MySQL with AutoCompletion and Syntax Highlighting](https://github.com/dbcli/mycli)
 
-## Java
-- [maven](./java/maven.sh) 
-- [java dump](./java/java_dump.sh)
 
 ## Tips
 - [nmap cheat sheet](./tips/nmap-cheat-sheet.md)
