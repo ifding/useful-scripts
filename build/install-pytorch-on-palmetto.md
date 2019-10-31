@@ -5,13 +5,26 @@
 ### 1. Using conda create command to create a conda environment.
 
 ```
-$ module add anaconda3/4.2.0
-$ module add cuda-toolkit/8.0.44
-$ module add cuDNN/8.0v7
-$ conda create -n pytorch python=3.5
+$ module add anaconda3/5.1.0
+$ module add cuda-toolkit/9.0.176
+$ module add cuDNN/9.0v7.3.0
+$ conda create -n pytorch python=3.6
 $ source activate pytorch
 ```
 
+If you want to install specific pytorch versions, please follow this [link](https://pytorch.org/get-started/previous-versions/), note that it also needs to add different cuda-toolkit and cuDNN modules to support the pytorch version you installed. For example, install pytorch 1.0.1:
+
+```
+pip install torch==1.0.1 torchvision==0.2.2
+```
+
+OR
+
+```
+conda install pytorch==1.0.1 torchvision==0.2.2 cudatoolkit=9.0 -c pytorch
+```
+
+The following steps are for installation from source, if you use the above commands to install, you don't need to run them.
 
 ### 2. Install torch from source
 

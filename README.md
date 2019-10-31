@@ -4,15 +4,13 @@ My collection of useful scripts, automate all the things!
 <!-- MarkdownTOC -->
 
 - [Linux](#linux)
-- [Java](#java)
 - [Python](#python)
 - [Sed](#sed)
 - [Awk](#awk)
 - [Monitor](#monitor)
 - [Database](#database)
-- [Tips](#tips)
 - [Tools](#tools)
-- [resources](#resources)
+- [Resources](#resources)
 
 <!-- /MarkdownTOC -->
 
@@ -21,23 +19,17 @@ My collection of useful scripts, automate all the things!
 - [compress and extract files](linux/compress_extract_files.md)
 - [bash-guide,A guide to learn bash](https://github.com/Idnan/bash-guide)
 - [basic commands](linux/basic_command.md)
-- [Ag:A code-searching tool similar to ack, but faster](https://github.com/ggreer/the_silver_searcher)
-- pidstat,report statistics for Linux tasks
-- [Moby,a collaborative project for the container ecosystem to assemble container-based systems](https://github.com/moby/moby)
-- [Ansible,a radically simple IT automation platform that makes your applications and systems easier to deploy](https://github.com/ansible/ansible)
-- [Linux Bash History](http://www.thegeekstuff.com/2011/08/bash-history-expansion/)
-
+- [nmap cheat sheet](./linux/nmap-cheat-sheet.md)
+- [terminal-hotkeys](./linux/terminal-hotkeys.md)
+- [cheat allows you to create and view interactive cheatsheets on the command-line](https://github.com/chrisallenlane/cheat)
 
 ## Python
+- [Comprehensive Python Cheatsheet](https://github.com/gto76/python-cheatsheet) 
 - [scripts](./python/README.md) 
-
-## Java
-- [maven](./java/maven.sh) 
-- [java dump](./java/java_dump.sh)
-
 
 ## Build
 - [install pytorch on palmetto](build/install-pytorch-on-palmetto.md)
+- [Installing CUDA 10 on Ubuntu 18.04](build/install_cuda10.txt)
 
 ## Sed
 - [Sed Tutorial](sed-awk/sed_tutorial.md)
@@ -45,6 +37,7 @@ My collection of useful scripts, automate all the things!
 ## Awk
 - [Awk Tutorial](sed-awk/awk_tutorial.md)
 - [Awk Soup](sed-awk/awk_soup)
+
 
 ## Monitor
 - [CPU](monitor/cpu.sh)
@@ -75,6 +68,7 @@ My collection of useful scripts, automate all the things!
 - [cpustat,high frequency performance measurements for Linux](https://github.com/uber-common/cpustat)
 - [psensor,a graphical temperature monitoring application](https://wpitchoune.net/psensor/)
 - [lshw is a small tool to provide detailed information on the hardware configuration of the machine](https://github.com/lyonel/lshw)
+- pidstat,report statistics for Linux tasks
 
 ## Database
 - [mysql monitor](./database/mysql_monitor.sh)
@@ -82,12 +76,8 @@ My collection of useful scripts, automate all the things!
 - [mycli:A Terminal Client for MySQL with AutoCompletion and Syntax Highlighting](https://github.com/dbcli/mycli)
 
 
-## Tips
-- [nmap cheat sheet](./tips/nmap-cheat-sheet.md)
-- [terminal-hotkeys](./tips/terminal-hotkeys.md)
-- [cheat allows you to create and view interactive cheatsheets on the command-line](https://github.com/chrisallenlane/cheat)
-
 ## Tools
+- [use vim as IDE](https://github.com/yangyangwithgnu/use_vim_as_ide)
 - [Text-mode interface for git](https://github.com/jonas/tig)
 - [jq is a lightweight and flexible command-line JSON processor](https://stedolan.github.io/jq/)
 - [ShellCheck, a static analysis tool for shell scripts](https://github.com/koalaman/shellcheck)
@@ -114,7 +104,7 @@ My collection of useful scripts, automate all the things!
 - [Pandoc,a universal document converter](http://pandoc.org/)
 - [http-server,a simple zero-configuration command-line http server](https://github.com/indexzero/http-server)
 - [oh-my-zsh,A delightful community-driven framework for managing your zsh configuration](https://github.com/robbyrussell/oh-my-zsh)
-- [use vim as IDE](https://github.com/yangyangwithgnu/use_vim_as_ide)
+- [Ag:A code-searching tool similar to ack, but faster](https://github.com/ggreer/the_silver_searcher)
 
 ## Resources
 - [A curated list of awesome Shell frameworks, libraries and software](https://github.com/uhub/awesome-shell)
