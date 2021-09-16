@@ -5,8 +5,7 @@ My collection of useful scripts, automate all the things!
 
 - [Linux](#linux)
 - [Python](#python)
-- [Sed](#sed)
-- [Awk](#awk)
+- [Sed/Awk](#sed)
 - [Monitor](#monitor)
 - [Database](#database)
 - [Tools](#tools)
@@ -22,19 +21,17 @@ My collection of useful scripts, automate all the things!
 - [nmap cheat sheet](./linux/nmap-cheat-sheet.md)
 - [terminal-hotkeys](./linux/terminal-hotkeys.md)
 - [cheat allows you to create and view interactive cheatsheets on the command-line](https://github.com/chrisallenlane/cheat)
-
-## Python
-- [Comprehensive Python Cheatsheet](https://github.com/gto76/python-cheatsheet) 
-- [scripts](./python/README.md) 
-
-## Build
 - [install pytorch on palmetto](build/install-pytorch-on-palmetto.md)
 - [Installing CUDA 10 on Ubuntu 18.04](build/install_cuda10.txt)
 
-## Sed
-- [Sed Tutorial](sed-awk/sed_tutorial.md)
+## Python
+- [Google Drive Download Python Script](https://github.com/matthuisman/gdrivedl)
+- [VISUALIZE CODE EXECUTION](https://pythontutor.com/)
+- [Comprehensive Python Cheatsheet](https://github.com/gto76/python-cheatsheet) 
+- [scripts](./python/README.md) 
 
-## Awk
+## Sed/Awk
+- [Sed Tutorial](sed-awk/sed_tutorial.md)
 - [Awk Tutorial](sed-awk/awk_tutorial.md)
 - [Awk Soup](sed-awk/awk_soup)
 
