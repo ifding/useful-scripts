@@ -12,11 +12,10 @@ python3.6 -m pip install <package-name>
 
 ## Scripts
 
-- [Port Scan](scripts/portscan.py)
-- [Brute force SSH logins using paramiko](scripts/ssh-dictionary-attack.py)
-- [dynamic-firmware-analysis](https://github.com/secjey/dynamic-firmware-analysis)
-- [Firmware Analysis Toolkit](https://github.com/attify/firmware-analysis-toolkit)
-- [The most useful python snippets](https://github.com/progrmoiz/python-snippets)
+- [Port Scan](portscan.py)
+- [Brute force SSH logins using paramiko](ssh-dictionary-attack.py)
+- [split dataset](machine-learning/split_dataset.py)
+- [Compute Receptive Field](machine-learning/computeReceptiveField.py)
 
 ## Algorithms
 
@@ -27,11 +26,6 @@ python3.6 -m pip install <package-name>
 - [Smoothed z-score algo (very robust thresholding algorithm)](run-length-encoding/ThresholdingAlgo.py)
 - [Noise Reduction](noise-reduction/README.md)
 
-
-## Machine learning
-
-- [split dataset](machine-learning/split_dataset.py)
-- [Compute Receptive Field](machine-learning/computeReceptiveField.py)
 
 
 Demo of thresholding algorithm

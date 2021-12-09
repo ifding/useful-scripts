@@ -5,8 +5,10 @@ My collection of useful scripts, automate all the things!
 
 - [Linux](#linux)
 - [Python](#python)
+- [Cheatsheet](#cheatsheet)
 - [Sed/Awk](#sed)
 - [Monitor](#monitor)
+- [Network](#network)
 - [Database](#database)
 - [Tools](#tools)
 - [Resources](#resources)
@@ -18,17 +20,25 @@ My collection of useful scripts, automate all the things!
 - [compress and extract files](linux/compress_extract_files.md)
 - [bash-guide,A guide to learn bash](https://github.com/Idnan/bash-guide)
 - [basic commands](linux/basic_command.md)
-- [nmap cheat sheet](./linux/nmap-cheat-sheet.md)
 - [terminal-hotkeys](./linux/terminal-hotkeys.md)
 - [cheat allows you to create and view interactive cheatsheets on the command-line](https://github.com/chrisallenlane/cheat)
-- [install pytorch on palmetto](build/install-pytorch-on-palmetto.md)
-- [Installing CUDA 10 on Ubuntu 18.04](build/install_cuda10.txt)
+- [install pytorch on palmetto](linux/install-pytorch-on-palmetto.md)
+- [Installing CUDA 10 on Ubuntu 18.04](linux/install_cuda10.txt)
+
 
 ## Python
 - [Google Drive Download Python Script](https://github.com/matthuisman/gdrivedl)
 - [VISUALIZE CODE EXECUTION](https://pythontutor.com/)
 - [Comprehensive Python Cheatsheet](https://github.com/gto76/python-cheatsheet) 
-- [scripts](./python/README.md) 
+- [dynamic-firmware-analysis](https://github.com/secjey/dynamic-firmware-analysis)
+- [Firmware Analysis Toolkit](https://github.com/attify/firmware-analysis-toolkit)
+- [The most useful python snippets](https://github.com/progrmoiz/python-snippets)
+- [More scripts](./python/) 
+
+## Cheatsheet
+- [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [C++ vs Java](./cheatsheet/syntax-differences-java-c++.md)
+
 
 ## Sed/Awk
 - [Sed Tutorial](sed-awk/sed_tutorial.md)
@@ -51,21 +61,26 @@ My collection of useful scripts, automate all the things!
 - [hardinfo,System profiler and benchmark tool for Linux systems](https://github.com/lpereira/hardinfo)
 - [i7z,A better i7 reporting tool for Linux](https://github.com/ajaiantilal/i7z)
 - [screenFetch,Fetches system/theme information in terminal for Linux desktop screenshots](https://github.com/KittyKatt/screenFetch)
-- [nethogs,Linux 'net top' tool](https://github.com/raboof/nethogs)
-- nload, displays the current network usage
 - findmnt, find a filesystem
 - iotop, simple top-like I/O monitor
-- [bmon, bandwidth monitor and rate estimator](https://github.com/tgraf/bmon)
 - [Ncdu is a disk usage analyzer](https://dev.yorhel.nl/ncdu)
-- arpwatch, a computer software tool for monitoring Address Resolution Protocol traffic on a computer network
 - atop, AT computing's system & process monitor
 - [Glances is a cross-platform system monitoring tool written in Python](https://nicolargo.github.io/glances/)
 - [bem-ng,a small and simple console-based live network and disk io bandwidth monitor](https://github.com/vgropp/bwm-ng)
-- [iptraf,ip network monitoring software](http://iptraf.seul.org)
 - [cpustat,high frequency performance measurements for Linux](https://github.com/uber-common/cpustat)
 - [psensor,a graphical temperature monitoring application](https://wpitchoune.net/psensor/)
 - [lshw is a small tool to provide detailed information on the hardware configuration of the machine](https://github.com/lyonel/lshw)
 - pidstat,report statistics for Linux tasks
+
+
+## Network
+- [nmap cheat sheet](./linux/nmap-cheat-sheet.md)
+- nload, displays the current network usage
+- [nethogs,Linux 'net top' tool](https://github.com/raboof/nethogs)
+- [bmon, bandwidth monitor and rate estimator](https://github.com/tgraf/bmon)
+- arpwatch, a computer software tool for monitoring Address Resolution Protocol traffic on a computer network
+- [iptraf,ip network monitoring software](http://iptraf.seul.org)
+
 
 ## Database
 - [mysql monitor](./database/mysql_monitor.sh)
@@ -102,6 +117,7 @@ My collection of useful scripts, automate all the things!
 - [http-server,a simple zero-configuration command-line http server](https://github.com/indexzero/http-server)
 - [oh-my-zsh,A delightful community-driven framework for managing your zsh configuration](https://github.com/robbyrussell/oh-my-zsh)
 - [Ag:A code-searching tool similar to ack, but faster](https://github.com/ggreer/the_silver_searcher)
+
 
 ## Resources
 - [A curated list of awesome Shell frameworks, libraries and software](https://github.com/uhub/awesome-shell)
